@@ -1,0 +1,23 @@
+export const colors = {
+    primaryColor: "#333333",
+    secondary: "#727682",
+    sky: "#D2BAF5",
+    sky2: "#F3F2F7",
+    purple: "#6231AD",
+    coldPurple:"#B296DC",
+    white:"#fff",
+    ghostWhite: "#F6F3FA",
+    magnolia: "#EEEAF3",
+    tertiary: "#B5C0C8",
+    yellow: '#FFE400',
+    goldYellow: "#FFA600",
+    deepYellow:"#48C547",
+    lightYellow: "rgba(237,250,237, 1)",
+    scarletGum:"#452C55",
+    pelorous: "#2DABAD",
+    strawberry: "#FE4190",
+    lightRed: "#03A67F",
+    redOrange: "#F73232",
+    lightRedOrange: "rgba(255,235,235,1)",
+    grey: "#4F4F4F"
+}
