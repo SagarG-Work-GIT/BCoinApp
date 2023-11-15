@@ -11,12 +11,12 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.white,        
         marginHorizontal: normalize(10)
     },
-    starIcon:{
-        width: normalize(20),
-        height: normalize(20),
+    starIcon:{        
+        width: normalize(25),
+        height: normalize(25),
         position: 'absolute',
         left: '50%',
-        top: -10
+        top: -15
     },
     arrowContainer:{
         padding: normalize(10),

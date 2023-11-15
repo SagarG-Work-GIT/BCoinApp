@@ -45,7 +45,7 @@ const Screen3 = () => {
 
         <StatView />
 
-        <View style={[commonStyle.row, styles.borderTop, commonStyle.marginTop_15]}>
+        <View style={[commonStyle.row, styles.borderTop, commonStyle.marginTop_25]}>
           <View style={[commonStyle.flex1, styles.tabBtn]}>
             <CustomButton
               label="Games played"

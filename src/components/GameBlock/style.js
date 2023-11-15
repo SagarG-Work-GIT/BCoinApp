@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         overflow:'hidden'
     },
     blockBody:{
-        paddingVertical: normalize(15),
+        paddingVertical: normalize(20),
         borderColor: colors.magnolia,
         borderWidth: normalize(2)
     },

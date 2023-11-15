@@ -40,10 +40,10 @@ export const styles = StyleSheet.create({
     },
     labelView:{
         position: 'absolute',
-        top: 5,
-        right: -15,
-        width: normalize(20),
-        height: normalize(20),
+        top: 9,
+        right: -12,
+        width: normalize(19),
+        height: normalize(19),
         borderRadius: normalize(20),        
         justifyContent:'center',
         backgroundColor: colors.purple

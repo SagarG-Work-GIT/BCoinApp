@@ -22,7 +22,7 @@ const Screen1 = ({navigation}) => {
 
     return (
         <View style={styles.container}>
-            <View style={[commonStyle.padding_v_10, commonStyle.padding_H_10]}>
+            <View style={[commonStyle.padding_v_20, commonStyle.padding_H_10]}>
                 <Text style={[commonStyle.text16, commonStyle.textPrimary]}>Today’s Games</Text>
             </View>
 

@@ -12,9 +12,9 @@ const StatView = () => {
           <Image
             source={icons.star}
             style={styles.starIcon}
-            resizeMode='cover'
+            resizeMode='contain'
           />
-          <View style={[commonStyle.flex1, commonStyle.padding_H_10]}>
+          <View style={[commonStyle.flex1, commonStyle.padding_H_20]}>
 
             <Text style={[ commonStyle.text16, commonStyle.textSecondary, commonStyle.fontBold]}>Under or Over</Text>
 

@@ -96,6 +96,9 @@ export const commonStyle = StyleSheet.create({
     padding_H_10:{
         paddingHorizontal: normalize(10)
     },
+    padding_H_20:{
+        paddingHorizontal: normalize(20)
+    },
     paddingTop_25:{
         paddingTop: normalize(25)
     },

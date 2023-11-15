@@ -59,8 +59,8 @@ export default function GameBlock({onPressOver}) {
                     </View>
                 </View>
 
-                <View style={[commonStyle.marginTop_15]}>
-                    <Text style={[commonStyle.text14, commonStyle.textSecondary]}>What’s your prediction?</Text>
+                <View style={[commonStyle.marginTop_25]}>
+                    <Text style={[commonStyle.text14, commonStyle.textSecondary, commonStyle.fontBold]}>What’s your prediction?</Text>
                     <View style={[commonStyle.row, commonStyle.marginTop_8, {
                         height: normalize(40)
                     }]}>
@@ -94,8 +94,8 @@ export default function GameBlock({onPressOver}) {
                 </View>
                 <ProgressBar percentage="50%" />
                 <View style={[commonStyle.row, commonStyle.justifyContentBetween]}>
-                    <Text style={[commonStyle.textTertiary, commonStyle.text14, commonStyle.fontBold, commonStyle.marginLeft_5]}>232 predicted under</Text>
-                    <Text style={[commonStyle.textTertiary, commonStyle.text14, commonStyle.fontBold, commonStyle.marginLeft_5]}>123 predicted over</Text>
+                    <Text style={[commonStyle.textTertiary, commonStyle.text14, commonStyle.marginLeft_5]}>232 predicted under</Text>
+                    <Text style={[commonStyle.textTertiary, commonStyle.text14,  commonStyle.marginLeft_5]}>123 predicted over</Text>
                 </View>
             </View>
         </View>

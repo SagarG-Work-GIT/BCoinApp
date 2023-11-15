@@ -33,14 +33,14 @@ const Header = ({ showLogo, title }) => {
                 <TouchableOpacity style={styles.icon}>
                     <Entypo
                         name="message"
-                        size={normalize(30)}
+                        size={normalize(25)}
                         color={colors.secondary}
                         style={{ transform: [
                             { scaleX: -1 }
                           ] }}
                     />
                     <View style={styles.labelView}>
-                        <Text style={[commonStyle.text14, commonStyle.textWhite, commonStyle.textAlignCenter]}>1</Text>
+                        <Text style={[commonStyle.text12, commonStyle.textWhite, commonStyle.textAlignCenter]}>1</Text>
                     </View>
                 </TouchableOpacity>
             </View>
